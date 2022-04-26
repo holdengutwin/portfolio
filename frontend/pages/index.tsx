@@ -8,8 +8,8 @@ const Home: NextPage = () => {
   let githubLink = <a href="https://github.com/holdengutwin" style={{color:"blue"}}> GitHub</a>
   return (
     <div style={{paddingLeft:"30px"}}>
-      <h1>Hi! I'm Holden Gutwin 😄</h1>
-      <p>I'm a third year computer science student at the University of Saskatchewan, currently on internship at Andgo Systems.</p>
+      <h1>{`Hi! I'm Holden Gutwin 😄`}</h1>
+      <p>{`I'm a third year computer science student at the University of Saskatchewan, currently on internship at Andgo Systems.`}</p>
       <p>This page is still under construction, feel free to check out my {githubLink} and {linkedinLink} in the meantime!</p>
     </div>
   )
